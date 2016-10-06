@@ -51,4 +51,8 @@ li:last-child {
 
 /* ===== MODULAR STYLES ===== */
 
+.content ul {
+  list-style-type: disc; 
+}
+
 /* ===== STATE STYLES ===== */
