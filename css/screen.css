@@ -8,6 +8,31 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ===== BASE STYLES ===== */
 
+html {
+  font-size: 1.125em;     /*18px*/
+  line-height: 1.222em;   /*22px is 1 gridline at 18px*/
+  background-color: #FFF;
+  color: #222;
+}
+
+h1 {
+  font-size: 1.728em; /*31.104px*/
+  line-height: 1.4146; /*44px gridline at 31.104px*/
+}
+
+p,
+ul {
+  padding-bottom: 1.222em; /*1 gridline*/
+}
+
+li {
+  padding-bottom: 0.611em; /*11px Half of a gridline*/
+}
+
+li:last-child {
+  padding-bottom: 0;
+}
+
 /* ===== LAYOUT STYLES ===== */
 
 /* ===== MODULAR STYLES ===== */
