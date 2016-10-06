@@ -16,8 +16,18 @@ html {
 }
 
 h1 {
-  font-size: 1.728em; /*31.104px*/
+  font-size: 1.728em;  /*31.104px*/
   line-height: 1.4146; /*44px gridline at 31.104px*/
+}
+
+h2 {
+  font-size: 1.44em;     /*25.92px*/
+  line-height: 1.2731em; /*33px = 1.5 gridline at 25.92px*/
+}
+
+h3 {
+  font-size: 1.2em; /*21.6px*/
+  line-height: 1.0185em; /*1 gridline at 21.6px*/
 }
 
 p,
@@ -34,6 +44,10 @@ li:last-child {
 }
 
 /* ===== LAYOUT STYLES ===== */
+
+#page {
+  padding: 1.222em 0.916em; /*one gridline and 16.5px to achieve minor third: 4/3 22/16.5px*/
+}
 
 /* ===== MODULAR STYLES ===== */
 
