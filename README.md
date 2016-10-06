@@ -1,1 +1,1 @@
-This is the repository for everything done in ITMD-361
+Repository for project 2 of ITMD-361 class.
