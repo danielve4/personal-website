@@ -54,14 +54,14 @@ li:last-child {
 }
 
 nav {
-  position: absolute;
+  position: absolute; /*The navbar stays at the top of the page, not visible after scrolling*/
   width: 100%;
   top: 0;
   left: 0;
-  box-shadow: 0 0.2222em 0.44444em rgba(0,0,0,.28);
+  box-shadow: 0 0.11111em 0.27778em rgba(0,0,0,0.26); /*The shadow of the navigation bar 4px down, 8px blur radius*/
   box-sizing: border-box;
   background: #303F9F;
-  height: 2.6667em; /* height of the navigation box 40px/18em | 40 = 11+18+11*/
+  height: 3.55555em; /* height of the navigation box 64px/18em | 64 = 23+18+23*/
 }
 
 /* ===== MODULAR STYLES ===== */
@@ -90,7 +90,7 @@ nav {
   text-align: center;
   line-height: 1;
   background-color: #303F9F;
-  padding: 0.83333em 0.0.333em; /* 12px 6px @ 18px/em */
+  padding: 1.27778em 0.333em; /* 12px 6px @ 18px/em */
   color: #FFF;
   border-bottom: none;
 }
