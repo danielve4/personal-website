@@ -11,7 +11,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.125em;     /*18px*/
   line-height: 1.222em;   /*22px is 1 gridline at 18px*/
-  background-color: #FFF;
+  background-color: #fafafa;
   color: #222;
   font-family: Helvetica;
 }
@@ -47,6 +47,12 @@ li:last-child {
   padding-bottom: 0;
 }
 
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
 /* ===== LAYOUT STYLES ===== */
 
 #page {
@@ -73,20 +79,25 @@ nav {
   padding-left: 0.916em;
 }
 
-.content ul:first-child {
-  padding-top: 0.61111em;
+.pets ul {                /*Elimates the bullet points from the images*/
+  list-style-type: none;
+  padding: 0;
 }
 
 .content ul li ul {
   list-style-type: circle;
 }
 
-.content ul li ul:first-child {
+.content ul li ul li ul {
+  list-style-type: square;
+}
+
+.content ul:first-child {
   padding-top: 0.61111em;
 }
 
-.content ul li ul li ul {
-  list-style-type: square;
+.content ul li ul:first-child {
+  padding-top: 0.61111em;
 }
 
 .nav {
@@ -108,17 +119,19 @@ nav {
   line-height: 1;
   background-color: #303F9F;
   padding: 1.2777778em 0.333em 1.1666667em 0.333em; /* 23px 6px 21px 6px @ 18px/em */
-  color: #FFF;
+  color: #e5e5e5;
   border-bottom: 0.11111111em transparent; /*Transparent bar to activate when selected*/
 }
 
-.pets ul {                /*Elimates the bullet points from the images*/
+.contact-info li {
   list-style-type: none;
-  padding: 0;
+  margin-left: -0.916em;
 }
 
 /* ===== STATE STYLES ===== */
 
 .active a {
+  color: #fff;
+  font-weight: 500;
   border-bottom: 0.11111111em solid #fff; /*Activate the bottom border to white when selected*/
 }
