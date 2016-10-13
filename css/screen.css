@@ -70,6 +70,23 @@ nav {
 }
 .content ul {
   list-style-type: disc;
+  padding-left: 0.916em;
+}
+
+.content ul:first-child {
+  padding-top: 0.61111em;
+}
+
+.content ul li ul {
+  list-style-type: circle;
+}
+
+.content ul li ul:first-child {
+  padding-top: 0.61111em;
+}
+
+.content ul li ul li ul {
+  list-style-type: square;
 }
 
 .nav {
@@ -90,11 +107,18 @@ nav {
   text-align: center;
   line-height: 1;
   background-color: #303F9F;
-  padding: 1.27778em 0.333em; /* 23px 6px @ 18px/em */
+  padding: 1.2777778em 0.333em 1.1666667em 0.333em; /* 23px 6px 21px 6px @ 18px/em */
   color: #FFF;
-  border-bottom: none;
+  border-bottom: 0.11111111em transparent; /*Transparent bar to activate when selected*/
 }
 
-
+.pets ul {                /*Elimates the bullet points from the images*/
+  list-style-type: none;
+  padding: 0;
+}
 
 /* ===== STATE STYLES ===== */
+
+.active a {
+  border-bottom: 0.11111111em solid #fff; /*Activate the bottom border to white when selected*/
+}
