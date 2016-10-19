@@ -71,45 +71,14 @@ nav {
 }
 
 /* ===== MODULAR STYLES ===== */
-.content {
-  padding-top: 3.55555em;
-}
-.content ul {
-  list-style-type: disc;
-  padding-left: 0.916em;
-}
-
 .pets ul {                /*Elimates the bullet points from the images*/
   list-style-type: none;
   padding: 0;
 }
 
-.content ul li ul {
-  list-style-type: circle;
-}
-
-.content ul li ul li ul {
-  list-style-type: square;
-}
-
-.content ul:first-child {
-  padding-top: 0.61111em;
-}
-
-.content ul li ul:first-child {
-  padding-top: 0.61111em;
-}
-
 .nav {
   display: block;
   margin-left: 0;
-  padding-bottom: 0;
-}
-
-.nav li {
-  float: left;
-  width: 33.33%;
-  list-style-type: none;
   padding-bottom: 0;
 }
 
@@ -122,10 +91,44 @@ nav {
   color: #e5e5e5;
   border-bottom: 0.11111111em transparent; /*Transparent bar to activate when selected*/
 }
-
+.nav li {
+  float: left;
+  width: 33.33%;
+  list-style-type: none;
+  padding-bottom: 0;
+}
 .contact-info li {
   list-style-type: none;
   margin-left: -0.916em;
+}
+
+.content {
+  padding-top: 3.55555em; /*Height of the navigation bar*/
+}
+.content ul {
+  list-style-type: disc;
+  padding-left: 0.916em; /*16.5px / 18px = 0.916*/
+  padding-top: 0;
+}
+
+.content ul li ul {
+  list-style-type: circle;
+}
+
+.content ul li ul li ul {
+  list-style-type: square;
+}
+
+.content ul li:first-child {
+  padding-top: 0.61111em;
+}
+
+.content ul:last-child {
+  padding-bottom: 0;
+}
+
+.content ul li ul li:first-child {
+  padding-top: 0.61111em;
 }
 
 /* ===== STATE STYLES ===== */
