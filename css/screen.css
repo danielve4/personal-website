@@ -71,7 +71,19 @@ nav {
 }
 
 /* ===== MODULAR STYLES ===== */
-.pets ul {                /*Elimates the bullet points from the images*/
+.nav li {
+  float: left;
+  width: 33.33%;
+  list-style-type: none;
+  padding-bottom: 0;
+}
+
+.contact-info li {
+  list-style-type: none;
+  margin-left: -0.916em;
+}
+
+.pets ul li {                /*Elimates the bullet points from the images*/
   list-style-type: none;
   padding: 0;
 }
@@ -90,16 +102,6 @@ nav {
   padding: 1.2777778em 0.333em 1.1666667em 0.333em; /* 23px 6px 21px 6px @ 18px/em */
   color: #e5e5e5;
   border-bottom: 0.11111111em transparent; /*Transparent bar to activate when selected*/
-}
-.nav li {
-  float: left;
-  width: 33.33%;
-  list-style-type: none;
-  padding-bottom: 0;
-}
-.contact-info li {
-  list-style-type: none;
-  margin-left: -0.916em;
 }
 
 .content {
