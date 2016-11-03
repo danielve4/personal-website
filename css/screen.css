@@ -11,7 +11,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.125em;     /*18px / 16px = 1.125em*/
   line-height: 1.222em;   /*22px is 1 gridline at 18px | 22px / 18px = 1.222em*/
-  background-color: #fafafa; 
+  background-color: #fafafa;
   color: #222;
   font-family: Helvetica;
 }
@@ -65,7 +65,7 @@ nav {
   top: 0;
   left: 0;
   box-shadow: 0 0.11111em 0.27778em rgba(0,0,0,0.26); /*The shadow of the navigation bar 4px down, 8px blur radius*/
-/*  box-sizing: border-box;*/
+  /*box-sizing: border-box;*/
   background: #607d8b;
   height: 3.55555em; /* height of the navigation box 64px/18em = 3.555em | 64 = 23+18+23*/
 }
@@ -126,7 +126,7 @@ nav {
 }
 
 .content ul li:first-child {
-  padding-top: 0.61111em;  11px / 18 px = 0.6111em
+  padding-top: 0.61111em;  /*11px / 18 px = 0.6111em*/
 }
 
 .content ul:last-child {
@@ -143,8 +143,4 @@ nav {
   color: #fff;
   font-weight: 500;
   border-bottom: 0.11111111em solid #fff; /*Activate the bottom border to white when selected*/
-}
-
-@media screen and (min-width:) {
-  
 }
