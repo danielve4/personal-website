@@ -54,10 +54,23 @@ video {
   max-width: 100%;
 }
 
+footer {
+  padding-top: 2.44444em; /*Two gridlines of padding*/
+}
+
 /* ===== LAYOUT STYLES ===== */
 
+video {
+  padding-top: 1.22222em; /*One gridline of padding*/
+}
+
+.photo {
+  margin-left: -0.91666667em;
+  margin-right: -0.91666667em;
+}
+
 #page {
-  padding: 1.222em 0.916em; /*one gridline and 16.5px to achieve minor third: (4/3) (22/16.5px)*/
+  padding: 1.222em 0.91666667em; /*one gridline and 16.5px to achieve minor third: (4/3) (22/16.5px)*/
 }
 
 nav {
