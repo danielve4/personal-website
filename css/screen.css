@@ -37,7 +37,7 @@ h3 {
 
 a {
   text-decoration: none;
-  border-bottom: 0.1666667em solid;
+  border-bottom: 0.1666667em solid; /*The underline of email and LinkedIn*/
   color: #3949AB;
 }
 
