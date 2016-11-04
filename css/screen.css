@@ -131,16 +131,7 @@ nav {
 }
 
 .content ul {
-  list-style-type: disc;
   padding-left: 0.91666667em; /*16.5px / 18px = 0.916*/
-}
-
-.content ul li ul {
-  list-style-type: circle;
-}
-
-.content ul li ul li ul {
-  list-style-type: square;
 }
 
 .content ul li:first-child {
