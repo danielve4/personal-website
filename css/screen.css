@@ -13,27 +13,32 @@ html {
   line-height: 1.222em;   /*22px is 1 gridline at 18px | 22px / 18px = 1.222em*/
   background-color: #fafafa;
   color: #222;
-  font-family: Helvetica;
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 
 h1 {
   font-size: 1.728em;  /*31.104px / 18px = 1.728em*/
   line-height: 1.4146; /*44px gridline at 31.104px | 44px / 31.104px = 1.4146em*/
+  color: #3949AB;
 }
 
 h2 {
   font-size: 1.44em;     /*25.92px /18px = 1.44em*/
   line-height: 1.2731em; /*33px = 1.5 gridline at 25.92px*/
   padding-top: 0.8487654em; /*One gridline to top | 11px / 25.92px = 0.42438em*/
+  color: #3949AB;
 }
 
 h3 {
   font-size: 1.2em; /*21.6px / 18px = 1.2em*/
   line-height: 1.0185em; /*1 gridline at 21.6px | 22px / 21px =1.0185*/
+  color: #3949AB;
 }
 
 a {
   text-decoration: none;
+  border-bottom: 0.1666667em solid;
+  color: #3949AB;
 }
 
 ul {
@@ -80,7 +85,7 @@ nav {
   left: 0;
   box-shadow: 0 0.11111em 0.27778em rgba(0,0,0,0.26); /*The shadow of the navigation bar 4px down, 8px blur radius*/
   /*box-sizing: border-box;*/
-  background: #607d8b;
+  background: #3949AB;
   height: 3.55555em; /* height of the navigation box 64px/18em = 3.555em | 64 = 23+18+23*/
 }
 
@@ -113,8 +118,9 @@ nav {
 .nav a {
   display: block;
   text-align: center;
+  text-decoration: none;
   line-height: 1;
-  background-color: #607d8b;
+  background-color: #3949AB;
   padding: 1.2777778em 0.333em 1.1666667em 0.333em; /* 23px 6px 21px 6px @ 18px/em | 21px to leave room for the white line underneath the links*/
   color: #e5e5e5;
   border-bottom: 0.11111111em transparent; /*Transparent bar to activate when selected | 2px / 18px = 0.1111em*/
