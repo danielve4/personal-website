@@ -149,6 +149,10 @@ nav {
   padding-top: 0.61111em;
 }*/
 
+.pets figcaption {
+  padding-left: 0.91666667em; /*16.5px / 18px = 0.916*/
+}
+
 /* ===== STATE STYLES ===== */
 
 .active a {
