@@ -31,7 +31,8 @@ h2 {
 
 h3 {
   font-size: 1.2em; /*21.6px / 18px = 1.2em*/
-  line-height: 1.0185em; /*1 gridline at 21.6px | 22px / 21px =1.0185*/
+  line-height: 1.0185em; /*1 gridline at 21.6px | 22px / 21.6px =1.0185*/
+  padding-top: 0.5093em;
   color: #3949AB;
 }
 
@@ -39,10 +40,6 @@ a {
   text-decoration: none;
   border-bottom: 0.1666667em solid; /*The underline of email and LinkedIn*/
   color: #3949AB;
-}
-
-ul {
-  padding-bottom: 1.222em; /*1 gridline (22px)*/
 }
 
 li {
@@ -103,17 +100,12 @@ nav {
 }
 
 .pets ul li {    /*Elimates the bullet points from the images*/
-  list-style-type: none;
   margin-left: -0.91666667em; /*16.5px / 18px = 0.916*/
 }
 
-/*
-.nav {
-  display: block;
-  margin-left: 0;
-  padding-bottom: 0;
+.pets ul li:first-child {
+  margin-top: -0.6111111em;
 }
-*/
 
 .nav a {
   display: block;
@@ -141,10 +133,6 @@ nav {
 .content ul:last-child {
   padding-bottom: 0;
 }
-
-/*.content ul li ul li:first-child {
-  padding-top: 0.61111em;
-}*/
 
 .pets figcaption {
   padding-left: 0.91666667em; /*16.5px / 18px = 0.916*/
