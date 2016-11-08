@@ -145,3 +145,19 @@ nav {
   font-weight: 500;
   border-bottom: 0.11111111em solid #fff; /*Activate the bottom border to white when selected*/
 }
+
+@media screen and (min-width: 480px) {
+  #page {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .photo {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .pets figcaption {
+    padding-left: 0;
+  }
+}
