@@ -222,7 +222,7 @@ nav {
   .background {
     box-sizing: border-box;
     width: 29.52381vw;
-    margin-left: 60.952381%;
+    margin-left: 51.42857%;
     margin-top: -1.22em;
   }
   
@@ -230,7 +230,7 @@ nav {
     box-sizing: border-box;
     display: block;
     float: left;
-    width: 71.42857vw;;
+    width: 61.904762vw;;
   }
   
   #daisy {
@@ -240,7 +240,6 @@ nav {
   
   #miky {
     width: 29.52381vw;
-    margin-left: 51.33333%
+    margin-left: 52.3076923%
   }
 }
-
