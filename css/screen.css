@@ -13,26 +13,28 @@ html {
   line-height: 1.222em;   /*22px is 1 gridline at 18px | 22px / 18px = 1.222em*/
   background-color: #fafafa;
   color: #222;
-  font-family: "Roboto", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 h1 {
-  font-size: 1.728em;  /*31.104px / 18px = 1.728em*/
-  line-height: 1.4146; /*44px gridline at 31.104px | 44px / 31.104px = 1.4146em*/
+  font-size: 1.9531111em;  /*35.156px / 18px = 1.9531111em*/
+  line-height: 1.251564456em; /*44px gridline at 35.156px | 44px / 35.156px = 1.251564456em*/
   color: #3949AB;
+  font-weight: 600;
 }
 
 h2 {
-  font-size: 1.44em;     /*25.92px /18px = 1.44em*/
-  line-height: 1.2731em; /*33px = 1.5 gridline at 25.92px*/
-  padding-top: 0.8487654em; /*One gridline to top | 11px / 25.92px = 0.42438em*/
+  font-size: 1.5625em;     /*28.125px /18px = 1.5625em*/
+  line-height: 1.1733333em; /*33px = 1.5 gridline at 28.125px*/
+  padding-top: 0.78222222em; /*One gridline to top | 22px / 28.125px = 0.78222222em*/
   color: #3949AB;
+  font-weight: 600;
 }
 
 h3 {
-  font-size: 1.2em; /*21.6px / 18px = 1.2em*/
-  line-height: 1.0185em; /*1 gridline at 21.6px | 22px / 21.6px =1.0185*/
-  padding-top: 0.5093em;
+  font-size: 1.25em; /*22.5px / 18px = 1.25em*/
+  line-height: 1.2222222em; /*1.25 gridline at 22.5px | 27.5px / 22.5px = 1.222222em*/
+  padding-top: 0.488888888em; /*Half gridline | 11px / 22.5px = 0.488888888em*/
   color: #3949AB;
 }
 
