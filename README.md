@@ -1,1 +1,1 @@
-Repository for project 2 of ITMD-361 class.
+This is the repository for my personal website [daniel-vega.com!](daniel-vega.com)
