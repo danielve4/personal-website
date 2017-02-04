@@ -1,1 +1,1 @@
-This is the repository for my personal website [daniel-vega.com!](daniel-vega.com)
+This is the repository for my personal website [daniel-vega.com](http://daniel-vega.com/)
