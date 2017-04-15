@@ -137,6 +137,10 @@ nav {
   padding-bottom: 0;
 }
 
+.coursework ul {
+  font-style: italic;
+}
+
 /* ===== STATE STYLES ===== */
 
 .active a {
@@ -158,12 +162,34 @@ nav {
     margin-left: 0;
     margin-right: 0;
   }
+
+  #programming {
+    padding-left: 1em;
+  }
+
+  #programming-one,
+  #programming-two,
+  #programming-three {
+    padding-left: 0;
+    width: 33%;
+  }
+
+  #programming-one {
+    float: left;
+  }
+
+  #programming-two {
+    display: inline-block;
+  }
+
+  #programming-three {
+    float: right;
+  }
 }
 
 /* 600px @ 16px/em*/
 /* Based on an 8 column grid with 16px gutters*/
 @media screen and (min-width: 37.5em) {
-
   #page {
     padding-left: 2.66667%;
     padding-right: 2.66667%;
@@ -193,6 +219,7 @@ nav {
     padding-left: 19.04762%;
     padding-right: 19.04762%;
   }
+
   .daniel-photo {
     float: left;
     width: 29.52381vw;
