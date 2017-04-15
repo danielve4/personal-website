@@ -107,7 +107,7 @@ nav {
 
 .contact-info li {
   list-style-type: none;
-  margin-left: -0.91666667em; /*16.5px / 18px = 0.916*/
+  margin-left: -1em; /* 1em to cancel 1em padding on the rest of ul's */
 }
 
 .nav a {
@@ -126,7 +126,7 @@ nav {
 }
 
 .content ul {
-  padding-left: 0.91666667em; /*16.5px / 18px = 0.916*/
+  padding-left: 1em; /*16.5px / 18px = 0.916*/
 }
 
 .content ul li:first-child {
