@@ -93,7 +93,6 @@ nav {
   top: 0;
   left: 0;
   box-shadow: 0 0.11111em 0.27778em rgba(0,0,0,0.26); /*The shadow of the navigation bar 4px down, 8px blur radius*/
-  /*box-sizing: border-box;*/
   background: #3949AB;
   height: 3.55555em; /* height of the navigation box 64px/18em = 3.555em | 64 = 23+18+23*/
 }
@@ -109,14 +108,6 @@ nav {
 .contact-info li {
   list-style-type: none;
   margin-left: -0.91666667em; /*16.5px / 18px = 0.916*/
-}
-
-.pets ul li {
-  margin-left: -0.91666667em; /*16.5px / 18px = 0.916*/
-}
-
-.pets ul li:first-child {
-  margin-top: -0.6111111em;
 }
 
 .nav a {
@@ -146,10 +137,6 @@ nav {
   padding-bottom: 0;
 }
 
-.pets figcaption {
-  padding-left: 0.91666667em; /*16.5px / 18px = 0.916*/
-}
-
 /* ===== STATE STYLES ===== */
 
 .active a {
@@ -170,10 +157,6 @@ nav {
   .photo {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .pets figcaption {
-    padding-left: 0;
   }
 }
 
@@ -198,27 +181,9 @@ nav {
     margin-top: -1.22em;
   }
 
-  .pets {
-    box-sizing: border-box;
-    display: block;
-    float: left;
-    width: 94vw;;
-  }
-
-  #daisy {
-    width: 46vw;
-    float: left;
-  }
-
-  #miky {
-    width: 46vw;
-    margin-left: 51.33333%;
-  }
-
   footer {
     clear: both;
   }
-
 }
 
 /* 840px @ 16px/em*/
@@ -238,22 +203,5 @@ nav {
     width: 29.52381vw;
     margin-left: 51.42857%;
     margin-top: -1.22em;
-  }
-
-  .pets {
-    box-sizing: border-box;
-    display: block;
-    float: left;
-    width: 61.904762vw;;
-  }
-
-  #daisy {
-    width: 29.52381vw;
-    float: left;
-  }
-
-  #miky {
-    width: 29.52381vw;
-    margin-left: 52.3076923%;
   }
 }
