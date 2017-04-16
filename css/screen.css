@@ -159,6 +159,7 @@ nav {
 }
 
 /* 480px @ 16px/em*/
+/* Based on an 4 column grid with 16px gutters*/
 @media screen and (min-width: 30em) {
   #page {
     padding-left: 3.33333%;
@@ -172,7 +173,7 @@ nav {
   }
 
   #programming {
-    padding-left: 1em;
+    padding-left: 1em; /*18px*/
   }
 
   #programming-one,
@@ -191,6 +192,15 @@ nav {
   }
 
   #programming-three {
+    float: right;
+  }
+
+  #bus-logo,
+  #bus-main-description {
+    width: 45vw;
+  }
+
+  #bus-main-description {
     float: right;
   }
 }
@@ -217,6 +227,18 @@ nav {
 
   footer {
     clear: both;
+  }
+
+  #bus-logo,
+  #bus-main-description,
+  .first-column,
+  .second-column {
+    width: 46vw;
+  }
+
+  #bus-main-description,
+  .first-column {
+    float: right;
   }
 }
 
