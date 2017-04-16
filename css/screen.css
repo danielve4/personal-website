@@ -140,6 +140,10 @@ nav {
   font-style: italic;
 }
 
+#software-development .all-development ul {
+  padding-top: 0.6111111em; /*11px/18px*/
+}
+
 /* ===== STATE STYLES ===== */
 
 .active a {
