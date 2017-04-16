@@ -80,10 +80,6 @@ footer {
 
 /* ===== LAYOUT STYLES ===== */
 
-video {
-  padding-top: 1.22222em; /*One gridline of padding*/
-}
-
 .daniel-photo {
   margin-left: -0.91666667em;
   margin-right: -0.91666667em;
@@ -140,6 +136,7 @@ nav {
 }
 
 .coursework ul {
+  padding-top: 0.6111111em; /*11px/18px*/
   font-style: italic;
 }
 
