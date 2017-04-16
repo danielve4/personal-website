@@ -188,13 +188,8 @@ nav {
     float: right;
   }
 
-  #bus-logo,
-  #bus-main-description {
+  #bus-logo {
     width: 45vw;
-  }
-
-  #bus-main-description {
-    float: right;
   }
 }
 
@@ -215,7 +210,6 @@ nav {
     box-sizing: border-box;
     width: 46vw;
     margin-left: 51.33333%;
-    margin-top: -1.22em;
   }
 
   footer {
@@ -223,13 +217,11 @@ nav {
   }
 
   #bus-logo,
-  #bus-main-description,
   .first-column,
   .second-column {
     width: 46vw;
   }
 
-  #bus-main-description,
   .first-column {
     float: right;
   }
@@ -252,17 +244,14 @@ nav {
     box-sizing: border-box;
     width: 29.52381vw;
     margin-left: 51.42857%;
-    margin-top: -1.22em;
   }
 
   #bus-logo,
-  #bus-main-description,
   .first-column,
   .second-column {
     width: 29.52380952vw;
   }
 
-  #bus-main-description,
   .first-column {
     float: right;
   }
