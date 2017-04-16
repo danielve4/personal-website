@@ -40,6 +40,7 @@ h3 {
   font-size: 1.25em; /*22.5px / 18px = 1.25em*/
   line-height: 1.2222222em; /*1.25 gridline at 22.5px | 27.5px / 22.5px = 1.222222em*/
   padding-top: 0.488888888em; /*Half gridline | 11px / 22.5px = 0.488888888em*/
+  padding-bottom: 0.488888888em;
   color: #3949AB;
 }
 
@@ -67,6 +68,15 @@ video {
   max-width: 100%;
 }
 
+figure {
+  padding-bottom: 1.222222em; /* 1 gridline */
+}
+
+figcaption {
+  font-size: 0.8em; /* 14.4px / 18px = 0.8em */
+  color: #9E9E9E;
+}
+
 footer {
   padding-top: 2.44444em; /*Two gridlines of padding*/
 }
@@ -77,8 +87,7 @@ video {
   padding-top: 1.22222em; /*One gridline of padding*/
 }
 
-.daniel-photo,
-.photo {
+.daniel-photo {
   margin-left: -0.91666667em;
   margin-right: -0.91666667em;
 }
@@ -129,8 +138,8 @@ nav {
   padding-left: 1em; /*16.5px / 18px = 0.916*/
 }
 
-.content ul li:first-child {
-  padding-top: 0.61111em;  /*11px / 18 px = 0.6111em*/
+.project-description p {
+  padding-bottom: 1.2222222em; /* 1 gridline */
 }
 
 .content ul:last-child {
@@ -151,7 +160,6 @@ nav {
 
 /* 480px @ 16px/em*/
 @media screen and (min-width: 30em) {
-
   #page {
     padding-left: 3.33333%;
     padding-right: 3.33333%;
