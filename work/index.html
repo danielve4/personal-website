@@ -18,7 +18,7 @@
     </nav>
   </header>
   <main class="content">
-    <section>
+    <section class="projects">
       <h1>Work</h1>
       <p>
         This is a list of the personal projects I have completed or
@@ -26,49 +26,76 @@
         oldest (bottom).
       </p>
     </section>
-    <section id="projects">
+    <section class="projects">
       <ol>
         <li>
           <h2>'L' Bus</h2>
-          <h3>iOS CTA Tracker</h3>
+          <p id="bus-main-description">
+            'L' Bus is a Chicago Transit Authority (CTA) Bus and Train tracker iOS
+            and watchOS app.
+          </p>
+          <figure id="bus-logo">
+            <img src="../media/img/b-icon.png" alt="'L' Bus logo."/>
+            <figcaption>
+              'L' Bus Logo
+            </figcaption>
+          </figure>
+          <h3>iOS</h3>
           <section class="project-description">
+            <section class="first-column">
+              <figure>
+                <img src="../media/img/b-favorite-stops.png" alt="iOS view of the favorites section"/>
+                <figcaption>
+                  iOS view of the favorites section
+                </figcaption>
+              </figure>
+              <p>
+                It features the ability to favorite stops for future easy access.
+              </p>
+            </section>
+            <section class="second-column">
+              <figure>
+                <img src="../media/img/b-all-stops.png" alt="iOS view of the routes section"/>
+                <figcaption>
+                  iOS view of the routes section
+                </figcaption>
+              </figure>
+              <p>
+                Users are able to select a route and stop in order to
+                view approximate vehicle arrival times at the selected stop.
+              </p>
+            </section>
             <p>
-              'L' Bus is a Chicago Transit Authority (CTA) Bus and Train tracker.
-            </p>
-            <figure>
-              <img src="../media/img/b-icon.png" alt="'L' Bus app logo."/>
-              <figcaption>
-                'L' Bus App Logo
-              </figcaption>
-            </figure>
-            <p>
-              In the app, the user is able to select a route and stop in order to
-              view approximate vehicle arrival times at the selected stop.
-            </p>
-            <figure>
-              <img src="../media/img/b-all-stops.png" alt="View of the routes section"/>
-              <figcaption>
-                View of the routes section in the 'L' Bus app
-              </figcaption>
-            </figure>
-            <p>
-              It features the ability to favorite stops for easier access.
-            </p>
-            <figure>
-              <img src="../media/img/b-favorite-stops.png" alt="View of the favorites section"/>
-              <figcaption>
-                View of the favorites section
-              </figcaption>
-            </figure>
-            <p>
-              Users are also able to follow a specific vehicle to view where it currently is.
+              Vehicles can be followed to keep track of where they are and
+              approximate arrival times at other stops.
             </p>
             <p>
-              Lastly, 'L' Bus is able to read aloud the upcoming arrival times, refreshing
-              every 45 seconds to provide updated arrival times.
+              In addition, 'L' Bus is able to read aloud the upcoming arrival times, refreshing
+              every 45 seconds to provide updated times.
             </p>
           </section>
-
+          <section class="project-description">
+            <h3>watchOS</h3>
+            <p>
+              The watchOS app is able to display the stops the user favorited in the
+              iOS app.
+            </p>
+            <figure>
+              <img src="../media/img/b-watch-favorites.png" alt="watchOS view of favorites"/>
+              <figcaption>
+                watchOS view of favorites
+              </figcaption>
+            </figure>
+            <p>
+              The user is able to view estimated arrival times as well as refresh for latests times.
+            </p>
+            <figure>
+              <img src="../media/img/b-watch-arrivals.png" alt="watchOS view of arrival times"/>
+              <figcaption>
+                watchOS view of arrival times
+              </figcaption>
+            </figure>
+          </section>
         </li>
       </ol>
     </section>
