@@ -24,6 +24,7 @@ html {
 h1 {
   font-size: 1.9531111em;  /*35.156px / 18px = 1.9531111em*/
   line-height: 1.251564456em; /*44px gridline at 35.156px | 44px / 35.156px = 1.251564456em*/
+  padding-bottom: 0.3128911139em; /* half gridline | 11px / 35.156px = 0.3128911139em */
   color: #3949AB;
   font-weight: 600;
 }
@@ -31,7 +32,7 @@ h1 {
 h2 {
   font-size: 1.5625em;     /*28.125px /18px = 1.5625em*/
   line-height: 1.1733333em; /*33px = 1.5 gridline at 28.125px*/
-  padding-top: 0.78222222em; /*One gridline to top | 22px / 28.125px = 0.78222222em*/
+  padding-bottom: 0.3911111111em; /* Half gridline to top | 11px / 28.125px = 0.3911111111em*/
   color: #3949AB;
   font-weight: 600;
 }
@@ -39,7 +40,6 @@ h2 {
 h3 {
   font-size: 1.25em; /*22.5px / 18px = 1.25em*/
   line-height: 1.2222222em; /*1.25 gridline at 22.5px | 27.5px / 22.5px = 1.222222em*/
-  padding-top: 0.488888888em; /*Half gridline | 11px / 22.5px = 0.488888888em*/
   padding-bottom: 0.488888888em;
   color: #3949AB;
 }
@@ -138,7 +138,7 @@ nav {
   padding-left: 1em; /*16.5px / 18px = 0.916*/
 }
 
-.project-description p {
+.projects p {
   padding-bottom: 1.2222222em; /* 1 gridline */
 }
 
