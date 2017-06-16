@@ -18,7 +18,7 @@ html {
   line-height: 1.222em;   /*22px is 1 gridline at 18px | 22px / 18px = 1.222em*/
   background-color: #fafafa;
   color: #222;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Product Sans', Helvetica, sans-serif;
 }
 
 h1 {
@@ -140,8 +140,9 @@ nav {
   font-style: italic;
 }
 
-#software-development li {
-  line-height: 1.5em;
+#software-development li,
+.background {
+  line-height: 1.7em;
   padding-bottom: 0;
 }
 
